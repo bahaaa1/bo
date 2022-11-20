@@ -1,0 +1,272 @@
+*{
+
+padding: 0;
+margin: 0;
+font-family: sans-serif;
+box-sizing: border-box;
+color: aliceblue;
+
+
+
+
+}
+
+body{
+
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+
+
+}
+
+
+.logo{
+
+    margin: 10px;
+}
+
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+
+}
+
+  nav .logo{
+    color: orangered;
+    text-decoration: none;
+    font-size: 32px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+
+}
+
+nav ul  a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 6px;
+    margin-top: 30px;
+    font-size: 20px;
+   
+
+
+}
+
+nav ul a:hover{
+
+   background-color: orangered;  
+   padding: 30px 10px 20px 10px ; 
+   margin: auto;
+   font-size: 20px;
+
+
+
+
+}
+
+ul button{
+
+    background-color: orangered;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+
+.div-2{
+
+    color: azure;
+    margin: 150px;
+    line-height: 60px;
+    font-size: 14px;
+    z-index: 2px;
+
+    
+}
+
+.div-2 h2{
+    background-color: orangered;
+    padding: 3px 10px;
+    width: 130px;
+    
+    
+}
+
+.div-2 h1{
+
+    font-size: 45px;
+    
+}
+
+.div-2 button{
+
+    background-color: orangered;
+    padding: 5px 30px;
+    border-radius: 10px;
+    font-size:15px;
+    line-height: 40px;
+    margin: 2px;
+    
+
+}
+.div-2 button:hover{
+
+    background-color: black;
+    border: 1px solid floralwhite;
+    cursor: pointer;
+
+
+}
+
+div .img-1{
+
+    position: absolute;
+    top:100px;
+    left: 450px;
+
+    
+}
+
+
+
+
+/*2222222*/
+
+
+
+.main{ 
+
+    position:relative ;
+    left: 900px;
+    bottom: 490px;
+    line-height: 40px;
+
+    
+    }
+
+
+    .section-1{
+
+        margin-top: 250px;
+
+
+    }
+
+    .section-1 img{
+        
+        position: relative;
+        left: 190px;
+        border-radius: 10px;
+        width: 540px;
+
+
+
+    }
+
+
+
+
+    input[type="range"]{
+
+        background-color: orangered;
+        width: 300px;
+        height: 1px;
+        color: rgb(28, 74, 43);
+    }
+
+    .main button{
+        background-color: orangered;
+        padding: 15px  30px;
+        font-size: 20px;
+        border-radius: 10px;
+        margin: 3px;
+
+
+    }
+
+    .main button:hover{
+
+    background-color: rgb(20, 0, 0);
+    border: 1px solid floralwhite;
+    cursor: pointer;
+
+
+
+
+    }
+
+    
+
+    /*___________________________________*/
+    footer{
+        background-color: rgb(10, 13, 13);
+        
+        
+
+    }
+
+
+    .f-1{
+
+        position: relative;
+        left: 200px;
+        
+
+       
+
+    }
+
+
+    .f-2{
+
+        
+        position: relative;
+        left: 800px;
+        bottom: 110px;
+        margin-top: 100px;
+
+
+    }
+
+
+    input,textarea{
+
+        width: 300px;
+        height: 70px;
+        margin: 15px;
+        border-radius: 5px;
+        background-color: black;
+
+    }
+
+    textarea{
+        width: 633px;
+        height: 150px;
+        resize: none;
+    }
+    
+    input[type="submit"]{
+
+        background-color: orangered;
+        border-radius: 15px;
+        width: 150px;
+        font-size:15px;
+
+    }
+
+    input[type="submit"]:hover{
+        background-color: black;
+        border: 1px solid floralwhite;
+        cursor: pointer;
+
+
+    }
+
+
+
+
